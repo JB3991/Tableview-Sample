@@ -1,15 +1,16 @@
 //
-//  ViewController.swift
+//  TableViewController.swift
 //  Tableview Sample
 //
 //  Created by Jonathan Burnett on 05/12/2020.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    let teams = ["Arsenal","Aston Villa", "Brighton & Hove Albion", "Burnley", "Chelsea", "Crystal Palace", "Everton", "Fulham", "Leeds", "Leicester City", "Liverpool", "Manchester City", "Manchester United", "Newcastle United", "Sheffield United", "Southampton", "Tottenham Hotspur", "West Brom", "West Ham United", "Wolverhampton Wanderers"]
+    let teams = ["AFC Bournemouth", "Arsenal", "Aston Villa", "Brighton & Hove Albion", "Burnley", "Chelsea", "Crystal Palace", "Everton", "Leicester City", "Liverpool", "Manchester City", "Manchester United", "Newcastle United", "Norwich City", "Sheffield United", "Southampton", "Tottenham Hotspur", "Watford", "West Ham United", "Wolverhampton Wanderers"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
